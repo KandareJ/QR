@@ -117,7 +117,7 @@ export default function App() {
 
 const QRCard = (props) => {
   const [open, setOpen] = React.useState(false);
-  const data = (props.data instanceof Object) ? JSON.stringify(props.data, null, 2) : props.data;
+  const data = (props.data instanceof Object) ? JSON.stringify(props.data) : props.data;
   const text = (props.data instanceof Object) ? JSON.stringify(props.data, null, 2) : props.data;
   
   const copyToClipboard = () => {
