@@ -13,16 +13,16 @@ const File = ({ setLabels }) => {
             const generated = [];
 
             cargo.map((item) => {
-
+                const palletId = generatePalletId();
                 generated.push({
                     flexId: item.warehouse_request_id,
-                    palletId: generatePalletId(),
+                    palletId,
                     count: 1,
                     totalCount: 2
                 });
                 generated.push({
                     flexId: item.warehouse_request_id,
-                    palletId: generatePalletId(),
+                    palletId,
                     count: 2,
                     totalCount: 2
                 });
