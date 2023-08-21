@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/qr/static/js/main.b0c26af3.js",
-    "index.html": "/qr/index.html",
-    "main.b0c26af3.js.map": "/qr/static/js/main.b0c26af3.js.map"
+    "main.js": "/QR/static/js/main.b0c26af3.js",
+    "index.html": "/QR/index.html",
+    "main.b0c26af3.js.map": "/QR/static/js/main.b0c26af3.js.map"
   },
   "entrypoints": [
     "static/js/main.b0c26af3.js"
